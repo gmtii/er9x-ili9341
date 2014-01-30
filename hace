@@ -1,0 +1,2 @@
+make CPU=128
+avrdude -p m128 -c usbasp -U flash:w:er9x.hex:a
